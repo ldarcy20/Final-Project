@@ -1,0 +1,4 @@
+The link to my presentation is here: https://drive.google.com/file/d/18IiduQC-LZa5VKCjZAqZFVZ02agILI1r/view?usp=sharing
+
+The most significant code to my project is in finalproject.py. This file contains my imitation zoom function, homography calculation, estimating field of view from t and corner of rectangles (in get_image_from_t), and two loops, one that
+finds or loads the homography for every pair of images, and one that calculates intermediate transition images for every pair of images. I saved every frame to a directory and then used frames_to_video.py to take a series of frames and make a video.
